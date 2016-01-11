@@ -11,5 +11,6 @@ handle['/'] = requestHandler.start;
 handle['/start'] = requestHandler.start;
 handle['/upload'] = requestHandler.upload;
 handle['/show'] = requestHandler.show;
+handle['setIO'] = requestHandler.setIO;
 
 server.start(router.route, handle);
